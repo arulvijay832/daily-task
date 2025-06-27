@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul style="list-style-type: circle;">
+        
+        <li> cars
+            <ul>
+        <li>🚘Bmw</li>
+        <li> 🚗Safari</li>
+        <li>Audi TT</li>
+        <li>toyato</li>
+        <li>Honda</li>
+
+    </ul>
+    <li> bikes
+        <ul style="list-style-type:square ;">
+            <li>pulsar</li>
+            <li> duke</li>
+            <li>Ns 200</li>
+            <li> n160</li>
+            <li>fz</li>
+        
+            
+        </ul>

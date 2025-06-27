@@ -1,0 +1,27 @@
+<body>
+    <ol style="list-style-type:  upper-roman;">
+    <li>first</li>
+    <li>second</li>
+    <li> third</li>
+    </ol>
+    <ol style="list-style-type:  lower-roman;">
+        <li>one</li>
+        <li>two</li>
+        <li>theree</li>
+    </ol>
+    <ol style="list-style-type: decimal;">
+        <li> arul</li>
+        <li> jothi</li>
+        <li> vijay</li>
+    </ol>
+    <ol style="list-style-type: upper-alpha;">
+        <li> i can</li>
+        <li> do it</li>
+        <li> you</li>
+    </ol>
+    <ol style="list-style-type: lower-alpha;">
+        <li> aplle</li>
+        <li> orangr</li>
+        <li> banana</li>
+    </ol>
+</body>
