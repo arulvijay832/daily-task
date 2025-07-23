@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>odd or even checker</title>
+
+    <style>
+          body{
+            margin: 0;
+            padding: 0;
+          }
+          div{
+            background-color: aquamarine;
+            width: fit-content;
+            margin-left: 40%;
+            margin-top: 10%;
+            padding: 15px;
+            
+          }
+    
+          
+
+    </style>
+</head>
+<body>
+    <div>
+    <h2>Odd or Even Checker</h2>
+    <input id="num" placeholder="Enter a number">
+    <button onclick="checknumber()">check</button>
+    <p id="res"> Result is:</p>
+    </div>
+
+    <script>
+     function checknumber() {
+        let num =  document.getElementById("num").value;
+        let result=document.getElementById("res").value;
+        if( num % 2===0) {
+           
+            document.getElementById("res").innerText="Even number";
+
+        } 
+        else {
+           
+            document.getElementById("res").innerText="Odd number";
+        }
+    
+     }
+       
+
+    </script>
+</body>
+</html>
