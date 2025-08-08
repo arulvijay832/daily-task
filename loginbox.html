@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+        <style>
+             body{
+                 background-color:beige;
+                 
+                 z-index: 1;
+
+             }
+            div{
+               background-color: brown;
+               padding: 40px;
+               width: fit-content;
+               margin-top:10% ;
+               margin-left: 30%;
+               z-index: 3;
+
+            }
+        </style>
+<body>
+   <div>
+    <label>username:</label>
+    <input type="text"id="username"placeholder="Enter your username"> <br><br>
+
+    <label >Password:</label>
+    <input type="password"  id="password" placeholder="Enter your password"><br><br>
+    <button onclick="handlelogin()">submit</button>
+    <h3 id="errormsg"></h3>
+  </div>
+
+    <script>
+      const checkpass=(b)=>{
+        return new Promise ((resolve)=> {
+          setTimeout(()=> {
+            resolve("welcome");
+
+          },2000);
+
+        });
+      };
+      
+      const handlelogin = async()=>{
+      const a= document.getElementById("username").value;
+      const b=document.getElementById("password").value;
+
+      if (a==`admin` && b==`1234 `) {
+       document.getElementById('errormsg').innerText=`pleasewait...`
+      const message = await checkpass(b);
+      document.getElementById(`errormsg`).innerText= message;
+      }else{
+        document.getElementById(`errormsg`).innerText=`Sorry,cannot let you in`
+      }
+    };
+
+    </script>
+
+</body>
+</html>
